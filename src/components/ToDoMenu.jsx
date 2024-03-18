@@ -56,7 +56,7 @@ const ToDoMenu = () => {
           }`}
         >
           {list.length === 0 ? (
-            <h1 className="font-bold text-3xl text-blue-700 p-2"></h1>
+            <h1 className="font-bold text-3xl text-blue-700 p-2">Tasks</h1>
           ) : (
             list.map((task) => (
               <div
